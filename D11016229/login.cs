@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace D11016229
 {
-    public partial class Form1 : Form
+    public partial class login : Form
     {
-        public Form1()
+        public login()
         {
             InitializeComponent();
         }
@@ -24,9 +24,10 @@ namespace D11016229
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            timer1.Enabled = false;
-            登入介面.Show();
-            Hide();
+            Timer1.Enabled = false;
+            Form2 form = new Form2();
+            form.Show();  
+            this.Hide();
         }
     }
 }
