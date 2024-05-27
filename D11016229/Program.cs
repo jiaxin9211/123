@@ -16,7 +16,7 @@ namespace D11016229
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
+            Application.Run(new LOGO());
         }
     }
 }

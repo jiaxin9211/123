@@ -1,16 +1,16 @@
 ﻿namespace D11016229
 {
-    partial class login
+    partial class Login
     {
         /// <summary>
-        /// 設計工具所需的變數。
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// 清除任何使用中的資源。
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,58 +20,102 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form 設計工具產生的程式碼
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
-        /// 這個方法的內容。
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Timer1 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.lblUser = new System.Windows.Forms.Label();
+            this.UsernameTextBox = new System.Windows.Forms.TextBox();
+            this.lblPwd = new System.Windows.Forms.Label();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.OK = new System.Windows.Forms.Button();
+            this.Cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // lblUser
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(761, 421);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.lblUser.AutoSize = true;
+            this.lblUser.Location = new System.Drawing.Point(179, 72);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(102, 15);
+            this.lblUser.TabIndex = 0;
+            this.lblUser.Text = "使用者名稱(U)";
             // 
-            // Timer1
+            // UsernameTextBox
             // 
-            this.Timer1.Enabled = true;
-            this.Timer1.Interval = 1500;
-            this.Timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.UsernameTextBox.Location = new System.Drawing.Point(182, 111);
+            this.UsernameTextBox.Name = "UsernameTextBox";
+            this.UsernameTextBox.Size = new System.Drawing.Size(300, 25);
+            this.UsernameTextBox.TabIndex = 1;
+            this.UsernameTextBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // Form1
+            // lblPwd
+            // 
+            this.lblPwd.AutoSize = true;
+            this.lblPwd.Location = new System.Drawing.Point(182, 168);
+            this.lblPwd.Name = "lblPwd";
+            this.lblPwd.Size = new System.Drawing.Size(55, 15);
+            this.lblPwd.TabIndex = 2;
+            this.lblPwd.Text = "密碼(P)";
+            // 
+            // PasswordTextBox
+            // 
+            this.PasswordTextBox.Location = new System.Drawing.Point(185, 212);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.Size = new System.Drawing.Size(297, 25);
+            this.PasswordTextBox.TabIndex = 3;
+            this.PasswordTextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // OK
+            // 
+            this.OK.Location = new System.Drawing.Point(185, 296);
+            this.OK.Name = "OK";
+            this.OK.Size = new System.Drawing.Size(100, 40);
+            this.OK.TabIndex = 4;
+            this.OK.Text = "確定(O)";
+            this.OK.UseVisualStyleBackColor = true;
+            this.OK.Click += new System.EventHandler(this.OK_Click);
+            // 
+            // Cancel
+            // 
+            this.Cancel.Location = new System.Drawing.Point(382, 296);
+            this.Cancel.Name = "Cancel";
+            this.Cancel.Size = new System.Drawing.Size(100, 40);
+            this.Cancel.TabIndex = 5;
+            this.Cancel.Text = "取消(C)";
+            this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 562);
-            this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ClientSize = new System.Drawing.Size(732, 403);
+            this.Controls.Add(this.Cancel);
+            this.Controls.Add(this.OK);
+            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.lblPwd);
+            this.Controls.Add(this.UsernameTextBox);
+            this.Controls.Add(this.lblUser);
+            this.Name = "Login";
+            this.Text = "登入介面";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Timer Timer1;
+        private System.Windows.Forms.Label lblUser;
+        private System.Windows.Forms.TextBox UsernameTextBox;
+        private System.Windows.Forms.Label lblPwd;
+        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.Button OK;
+        private System.Windows.Forms.Button Cancel;
     }
 }
-

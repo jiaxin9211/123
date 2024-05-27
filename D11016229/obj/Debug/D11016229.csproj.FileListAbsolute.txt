@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\123\D11016229\bin\Debug\D11016229.exe.config
+C:\Users\User\Desktop\123\D11016229\bin\Debug\D11016229.exe
+C:\Users\User\Desktop\123\D11016229\bin\Debug\D11016229.pdb
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.csprojAssemblyReference.cache
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.login.resources
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.Properties.Resources.resources
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.csproj.GenerateResource.cache
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.exe
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.pdb
+C:\Users\User\Desktop\123\D11016229\obj\Debug\D11016229.LOGO.resources
